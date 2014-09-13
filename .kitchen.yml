@@ -1,0 +1,19 @@
+---
+driver:
+  name: docker
+  socket: <%= ENV['DOCKER_HOST'] %>
+  provision_command: curl -L https://www.getchef.com/chef/install.sh | bash
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu
+
+suites:
+  - name: default
+    run_list:
+      - recipe[optchef-rails::default]
+    attributes:
+      rbenv:
+        global: '1.9.3-p545'
