@@ -11,5 +11,5 @@ version           '1.9.3'
 supports          'ubuntu'
 
 depends           'passenger'
-depends           'passenger_apache2'
+depends           'old-passenger_apache2'
 depends           'vhosts'
