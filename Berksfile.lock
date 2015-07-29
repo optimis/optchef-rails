@@ -18,7 +18,7 @@ GRAPH
     apache2 (>= 1.0.4)
     build-essential (>= 0.0.0)
     rbenv (>= 0.0.0)
-  optchef-rails (2.1.6)
+  optchef-rails (1.9.3)
     old-passenger_apache2 (>= 0.0.0)
     passenger (>= 0.0.0)
     vhosts (>= 0.0.0)
