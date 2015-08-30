@@ -1,4 +1,4 @@
-node.default['passenger']['version'] = '4.0.50'
+node.default['passenger']['version'] = '5.0.16'
 
 node.default['passenger']['rbenv'] = {
   enabled: true,
