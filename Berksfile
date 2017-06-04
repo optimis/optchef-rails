@@ -1,4 +1,5 @@
 source 'http://cookbooks.optimispt.com'
+source 'https://api.berkshelf.com'
 
 metadata
 
