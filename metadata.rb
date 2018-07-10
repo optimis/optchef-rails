@@ -6,7 +6,7 @@ maintainer_email  'ops@optimiscorp.com'
 description       'Installs/Configures passenger'
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
-version           '2.3.3'
+version           '2.2.9'
 
 supports          'ubuntu'
 
